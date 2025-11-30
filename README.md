@@ -129,101 +129,136 @@ DETACHING & DELETE THE EBS VOLUME FROM THE SECOND EC2 INSTANCE:
 
  * Select the Instance tab from the navigation panel on the left.
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EC2 Select Instances from AWS Navigation Panel.png" alt="Select Instance Tab" width="900" />  
 </p>  
  * Select the first EC2 Instance that was created.
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE Select the firdt created EC2 Instance.png" alt="Select the first created Instance" width="900" />  
 </p>  
  * Select the Connect Button from the top-right of the Instances Page
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE Select Connect Button.png" alt="Select Connect Button" width="900" />  
 </p>  
  * Select the EC2 Instance Connect Tab
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE Select  EC2 Instance Connect tab.png" alt="Select EC2 Connect Tab" width="900" />  
 </p>  
  * Select the Connect Button at the bottom
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE Select  EC2 Instance Connect BUTTON BOTTOM.png" alt="Select Connect Button Bottom" width="900" />  
 </p>  
  * Type "nano proof.txt" into the EC2 Instance Connect
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE type nanoproof.txt into EC2 Instance Connect.png" alt="Type nano proof.txt" width="900" />  
 </p>  
  * Type out a text in the nano editor.
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOT updated proof message EC2 instance Connect.png" alt="Text in nano editor" width="900" />  
 </p>  
 CREATE A SNAPSHOT OF THE EBS VOLUME FROM THE FIRST CREATED EC2 INSTANCE: 
 
 * Select the Volumes Tab from the navigation panel on the left
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS DELETE VOLUME Select Volume from left hand navigation panel.png" alt="Select Volume" width="900" />  
 </p>  
 * Select the EBS Volume for the first created EC2 instance
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOT Select first EC2 Instance Volume.png" alt="Select the First EC2 Volume" width="900" />  
 </p>  
 * Select Actions from the top right of the Volumes Page
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS Select Actions Tab.png" alt="Select Actions" width="900" />  
 </p>  
 * Select Create Snapshot from the drop-down options.
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOT Select Create Snapshot from actions drop down.png" alt="Select Create Snapshot" width="900" />  
 </p>  
 * Select the Snapshots Tab from the navigation panel on the left
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOTS Select snapshots from navigation panel.png" alt="Select Snapshots Navigation Panel" width="900" />  
 </p>  
 * Wait until the progress shows one hundred percent
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOTS wait till progress 100 percent.png" alt="Wait until progress is 100%" width="900" />  
 </p>  
 * Select Actions from the top right of the Snapshots Page
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS Select Actions Tab.png" alt="Select Actions from top right." width="900" />  
 </p>  
 * Select the snapshot that was just created
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOT Select the recently created snapshot.png" alt="Select Snapshot" width="900" />  
 </p>  
 * Select Actions from the top right of the snapshots page
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOT Select the recently created snapshot.png" alt="Select Actions" width="900" />  
 </p>  
 * Select Create volume from snapshot from the drop-down options.
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOT select from dropdown create volume from snapshot.png" alt="Select Create Volume from Snapshot" width="900" />  
 </p>  
 * Select Create Volume at the bottom of the page.
 
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
 </p>  
 
 * Select the Volumes Tab from the navigation panel on the left
+<p align="center">  
+  <img src="<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Volumes Tab Navigation Panel" width="900" />  
+</p>  
+
 
 * Wait until the initialization state shows completed.
+<p align="center">  
+  <img src="Resources/SNAPSHOT intization complete.png" alt="Wait for intilization state to show complete" width="900" />  
+</p>  
 
 * Select the recently created volume from the snapshot.
+<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
 
  * Select Actions from the top right of the Volumes Page
+<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
 
  * Select Attach Volume from the drop-down options.
+<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
 
  * Select the EC2 Instance to attach to the volume (in this case the second EC2 Instance)
+<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
 
  * Select the root device option under Device Name.
+<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
 
  * Select the Attach Volume button at the bottom.
+<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
 
  * Select the Instances Tab from the navigation panel on the left
+<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
 
  * Select the second created EC2 Instance
- 
+ <p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
+
  * Select Connect from the top right of the Instances Page
+<p align="center">  
+  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+</p>  
 
  * Select the EC2 Instance Connect Tab
 
