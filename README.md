@@ -63,7 +63,7 @@ DETACHING & DELETE THE EBS VOLUME FROM THE SECOND EC2 INSTANCE:
 *Select the second EC2 Instance Created
 
 <p align="center">  
-  <img src="Resources/EBS Select the 2nd EC2 CREATED.png" alt="Select the 2nd EC2 Instance" width="900" />  
+  <img src="Resources/EBS Select the 2nd EC2 CREATED.png" alt="Select the 2nd EC2 Instance Created" width="900" />  
 </p>  
 * Select Actions from the top right of the Instances Page
 
