@@ -191,7 +191,7 @@ CREATE A SNAPSHOT OF THE EBS VOLUME FROM THE FIRST CREATED EC2 INSTANCE:
 </p>  
 * Select Actions from the top right of the snapshots page
 <p align="center">  
-  <img src="Resources/SNAPSHOT Select the recently created snapshot.png" alt="Select Actions" width="900" />  
+  <img src="Resources/EBS Select Actions Tab.png" alt="Select Actions" width="900" />  
 </p>  
 * Select Create volume from snapshot from the drop-down options.
 <p align="center">  
@@ -206,7 +206,7 @@ CREATE A SNAPSHOT OF THE EBS VOLUME FROM THE FIRST CREATED EC2 INSTANCE:
 * Select the Volumes Tab from the navigation panel on the left
 <p align="center">  
   <img src="<p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Volumes Tab Navigation Panel" width="900" />  
+  <img src="" alt="Select Volumes Tab Navigation Panel" width="900" />  
 </p>  
 
 
