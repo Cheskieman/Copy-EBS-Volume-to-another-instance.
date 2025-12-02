@@ -206,7 +206,7 @@ CREATE A SNAPSHOT OF THE EBS VOLUME FROM THE FIRST CREATED EC2 INSTANCE:
 * Select the Volumes Tab from the navigation panel on the left
 <p align="center">  
   <img src="<p align="center">  
-  <img src="" alt="Select Volumes Tab Navigation Panel" width="900" />  
+  <img src="Resources/EBS DELETE VOLUME Select Volume from left hand navigation panel.png" alt="Select Volumes Tab Navigation Panel" width="900" />  
 </p>  
 
 
@@ -217,42 +217,42 @@ CREATE A SNAPSHOT OF THE EBS VOLUME FROM THE FIRST CREATED EC2 INSTANCE:
 
 * Select the recently created volume from the snapshot.
 <p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+  <img src="Resources/SNAPSHOT intization complete.png" alt="Select Recently Created Volume from Snapshot" width="900" />  
 </p>  
 
  * Select Actions from the top right of the Volumes Page
 <p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+  <img src="Resources/EBS Select Actions Tab.png" alt="Select Actions" width="900" />  
 </p>  
 
  * Select Attach Volume from the drop-down options.
 <p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+  <img src="Resources/SNAPSHOTS Select attach volume from dropdown.png" alt="Select Attach Volume" width="900" />  
 </p>  
 
  * Select the EC2 Instance to attach to the volume (in this case the second EC2 Instance)
 <p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+  <img src="Resources/SNAPSHOT Select the 2nd EC2 instance from instance tab.png" alt="Select 2nd EC2 Instance" width="900" />  
 </p>  
 
  * Select the root device option under Device Name.
 <p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+  <img src="Resources/SNAPSHOTS Select the Device Name to attach to the volume.png" alt="Select Root Device Option " width="900" />  
 </p>  
 
  * Select the Attach Volume button at the bottom.
 <p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+  <img src="Resources/SNAPSHOT Select the attach volume button at the bottom..png" alt="Select Attach Volume" width="900" />  
 </p>  
 
  * Select the Instances Tab from the navigation panel on the left
 <p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+  <img src="Resources/EC2 Select Instances from AWS Navigation Panel.png" alt="Select Instances Tab" width="900" />  
 </p>  
 
  * Select the second created EC2 Instance
  <p align="center">  
-  <img src="Resources/SNAPSHOT Select Create volume at bottom of snapshot page.png" alt="Select Create Volume bottom of page" width="900" />  
+  <img src="Resources/SNAPSHOT Select the 2nd EC2 instance from instance tab.png" alt="Select 2nd Created Instance" width="900" />  
 </p>  
 
  * Select Connect from the top right of the Instances Page
@@ -263,35 +263,23 @@ CREATE A SNAPSHOT OF THE EBS VOLUME FROM THE FIRST CREATED EC2 INSTANCE:
  * Select the EC2 Instance Connect Tab
 
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE Select Connect Button.png" alt="Select Connect Tab" width="900" />  
 </p>  
  
  * Select the Connect Button at the bottom
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE Select  EC2 Instance Connect BUTTON BOTTOM.png" alt="Select Connect Button Bottom" width="900" />  
 
 * Type "nano proof.txt" into the EC2 Instance Connect
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE type nanoproof.txt into EC2 Instance Connect.png" alt="Select nano proof.txt" width="900" />  
 </p>  
  * See previously created text.
 <p align="center">  
-  <img src="Resources/EBS DELETE VOLUME button.png" alt="Select Delete Volume Button" width="900" />  
+  <img src="Resources/EBS EC2 NUMBER ONE type nanoproof.txt into EC2 Instance Connect.png" alt="Select Previously Text" width="900" />  
 </p>  
 
 This proves that the process of copying the EBS Volume from the first EC2 Instance to the Second EC2 Instance was a success.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
