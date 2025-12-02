@@ -276,7 +276,7 @@ CREATE A SNAPSHOT OF THE EBS VOLUME FROM THE FIRST CREATED EC2 INSTANCE:
 </p>  
  * See previously created text.
 <p align="center">  
-  <img src="Resources/EBS EC2 NUMBER ONE type nanoproof.txt into EC2 Instance Connect.png" alt="Select Previously Text" width="900" />  
+  <img src="Resources/SNAPSHOT updated proof message EC2 instance Connect.png" alt="Select Previously Text" width="900" />  
 </p>  
 
 This proves that the process of copying the EBS Volume from the first EC2 Instance to the Second EC2 Instance was a success.
