@@ -8,7 +8,7 @@
 
 * Detaching & Deleting the EBS volume from the second instance
 
-* Copy over the EBS Volume & Volume data of first created EC2 Instance to the second created EC2 Instance.
+* Copy over the EBS Volume & Volume data of the first created EC2 Instance to the second created EC2 Instance.
 
 * Create a Snapshot of the EBS Volume from the First Created EC2 Instance 
 
