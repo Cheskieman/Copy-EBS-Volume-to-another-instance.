@@ -1,8 +1,8 @@
-# Copy a deleted EC2 Instance EBS volume to a running instance
+# Copy a Deleted EC2 Instance EBS Volume to a Running Instance
 
-## Full Step-by-Step guide with snapshots to both describe and illustrate how I can detach an EBS volume from an EC2 Instance and load that same EBS Volume on another running instance.
+## A complete instructional guide with snapshots that walks you step-by-step through detaching an EBS volume from one EC2 instance and attaching that same volume to another running instance.
 
-### This project demonstrates how to detach an EBS volume from an instance and attach it to another running instance. This project will cover:
+### This project demonstrates how to detach an EBS volume from an EC2 instance and load that same volume onto another running instance.
 
 * Setting up two EC2 Instances
 
@@ -12,7 +12,7 @@
 
 * Create a Snapshot of the EBS Volume from the First Created EC2 Instance 
 
-#### Instructions on how to remove an EBS volume from an instance and load it onto another running instance.
+#### This project provides clear instructions on removing an EBS volume from its original instance and attaching it to another active instance.
 
 
 CREATE TWO EC2 INSTANCES:
